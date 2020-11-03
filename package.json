@@ -1,0 +1,28 @@
+{
+  "name": "almacen-backend",
+  "version": "1.0.0",
+  "description": "Almacen",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js --exec",
+    "dev": "nodemon index.js --exec babel-node"
+  },
+  "author": "Luis Arispe",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
